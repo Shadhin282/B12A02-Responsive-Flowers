@@ -150,7 +150,7 @@ body {
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
 }
 .flower-img-2{
-  position:fixed;
+  position:relative;
 }
 .flower-content-title{
     font-size:50px;
@@ -170,6 +170,28 @@ body {
     font-weight: 400;
     line-height: 27px;
     margin: 20px 0;
+}
+/* Latest deal style */
+.latest-deal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 130px;
+    margin-bottom: 120px;
+}
+.latest-deal-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.latest-deal-title span{
+    background-color: rgb(233, 90, 8);
+}
+.latest-deal-details{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
 }
 /* Responsive for mobile */
 @media screen and (max-width: 450px) {
