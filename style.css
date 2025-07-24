@@ -211,7 +211,7 @@ body {
     gap: 23px;
     justify-content: center;
     align-items: center;
-    margin: 195px 305px;
+    padding: 195px 305px;
     width: 830px;
     height: 140px;
    
@@ -226,9 +226,9 @@ body {
     display: flex;
 
 }
-.join-part-input input[type="email"]{
+input[type="email"]{
     width: 645px;
-    height: 140px;
+    flex:1;
 }
 /* Responsive for mobile */
 @media screen and (max-width: 450px) {
