@@ -198,8 +198,8 @@ body {
 /* Join section style */
 .join-part{
     position: relative;
-    left: -200px;
-    right: -200px;
+    left: -150px;
+    right: 150px;
     width: 1440px;
     height: 540px;
     background-image: url("./assets/news-letter-bg.png");
@@ -211,7 +211,9 @@ body {
     gap: 23px;
     justify-content: center;
     align-items: center;
-    margin: auto 305px;
+    margin: 195px 305px;
+    width: 830px;
+    height: 140px;
    
 }
 .join-part-content-title{
@@ -222,6 +224,11 @@ body {
 }
 .join-part-input{
     display: flex;
+
+}
+.join-part-input input[type="email"]{
+    width: 645px;
+    height: 140px;
 }
 /* Responsive for mobile */
 @media screen and (max-width: 450px) {
