@@ -13,8 +13,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
-<body class="container">
-    <header>
+<body >
+    <header class="container">
         <!-- Nav Bar  -->
         <nav class="navigation inter">
             <div class="nav-left">
@@ -43,7 +43,7 @@
     </header>
     <main>
         <!-- Plant & Card -->
-        <section class="plant">
+        <section class="plant container">
             <div class="plant-content">
                 <h3 class="plant-content-title noto-serif"> <span>Our</span> Plants</h3>
                 <p class="plant-content-details inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -117,7 +117,7 @@
             </div>
         </section>
         <!-- Flower & Plant -->
-         <section class="flower">
+         <section class="flower container">
             <div class="flower-image">
                 <img class="flower-img-1" src="./assets/trusted-badge.png" alt="">
                 <img class="flower-img-2" src="./assets/flower-store.png" alt="Flower Store" class="flower-img">
@@ -138,51 +138,82 @@
             </div>
          </section>
          <!-- Deal section -->
-         <section class="latest-deal">
-            <h3 class="latest-deal-title noto-serif"> <span>Latest</span>  Deals</h3>
-            <p class="latest-deal-details inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-         </section>
+         <section class="latest-deal container">
+            <div class="latest-deal-content">
+             <h3 class="latest-deal-title noto-serif"> <span>Latest</span>  Deals</h3>
+             <p class="latest-deal-details inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+          </div>
+           <!-- Latest Card -->
+            <div class="latest-card inter">
+                <div class="latest-card-1">
+                        <div class="card-content-1">
+                            <h3 class="card-content-title-1 noto-serif">60% Off | Bloom Plant</h3>
+                            <a href="" class="card-content-link-1">Shop Now</a>
+                        </div>
+                                       
+                  </div>
+                  <div class="latest-card-2">
+                    <div class="card-content-2">
+                        <h3 class="card-content-title-2 noto-serif">25% Off | Zabo  Plant</h3>
+                        <a href="" class="card-content-link-2 ">Shop Now</a>
+                    </div>
+                    
+                  </div>
+               
+                  <div class="latest-card-3">
+                    <div class="card-content-3">
+                        <h3 class="card-content-title-3 noto-serif">30% Off | Ana  Plant</h3>
+                        <a href="" class="card-content-link-3">Shop Now</a>
+                    </div>
+                    
+                  </div>
+            </div>
+                
+                  
+           
+        </section>
+
          <!-- Join section -->
-         <section class="join-part">
+       <section class="join-part"> 
             <div class="join-part-content">
                 <h3 class="join-part-content-title noto-serif">Join the colorful Bunch</h3>
                 <div class="join-part-input">
                     <input type="email" placeholder="write email">
-                    <button class="card-btn inter">Subscribe</button>
+                    <button class="card-btn btn-join inter">Subscribe</button>
                 </div>
 
             </div>
-         </section>
+          </section>  
     </main>
-    <footer class="footer">
+     <footer class="footer container"> 
         <div class="footer-left">
-            <img src="./assets/logo.png" alt="footer logo">
-            <p class="footer-left-details">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            <img class="left-img" src="./assets/logo.png" alt="footer logo">
+            <p class="left-details inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
         </div>
         <div class="footer-ul-1">
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#contact">Contact us</a></li>
+            <ul class="list-items1 inter">
+                <li class="list-item1"><a class="list-item-link1" href="#Home">Home</a></li>
+                <li class="list-item1"><a class="list-item-link1" href="#about">About us</a></li>
+                <li class="list-item1"><a class="list-item-link1" href="#blog">Blog</a></li>
+                <li class="list-item1" ><a class="list-item-link1" href="#faq">FAQ</a></li>
+                <li class="list-item1"><a class="list-item-link1" href="#contact">Contact us</a></li>
             </ul>
         </div>
-        <div class="footer-ul-2">
-            <ul>
-                <li><a href="#Home">Feature</a></li>
-                <li><a href="#about">Pricing</a></li>
-                <li><a href="#blog">Privacy Policy</a></li>
-                <li><a href="#faq">Terms of Service</a></li>
-                <li><a href="#contact">Help Center</a></li>
+        <div class="footer-ul-2 inter">
+            <ul class="list-items2">
+                <li class="list-item2"><a class="list-item-link2" href="#Home">Feature</a></li>
+                <li class="list-item2"><a class="list-item-link2" href="#about">Pricing</a></li>
+                <li class="list-item2"><a class="list-item-link2" href="#blog">Privacy Policy</a></li>
+                <li class="list-item2"><a class="list-item-link2" href="#faq">Terms of Service</a></li>
+                <li class="list-item2"><a class="list-item-link2" href="#contact">Help Center</a></li>
             </ul>
         </div>
         <div class="footer-icon">
-            <img src="./assets/icon-linkedin.png" alt="LinkedIn">
-            <img src="./assets/icon-twitter.png" alt="Twitter">
-            <img src="./assets/icon-facebook.png" alt="Facebook">
-            <img src="./assets/icon-youtube.png" alt="Youtube">
+            <img class="icon-img" src="./assets/icon-linkedin.png" alt="LinkedIn">
+            <img class="icon-img"  src="./assets/icon-twitter.png" alt="Twitter">
+            <img class="icon-img"  src="./assets/icon-facebook.png" alt="Facebook">
+            <img class="icon-img"  src="./assets/icon-youtube.png" alt="Youtube">
         </div>
-    </footer>
+     </footer>
 </body>
 </html>
