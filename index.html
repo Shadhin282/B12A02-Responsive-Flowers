@@ -18,6 +18,19 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet" />
+      <style>
+        @keyframes imageSpin{
+          from{
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+        .animation{
+            animation: imageSpin 2s infinite linear;
+        }
+      </style>
   </head>
   <body>
     <header class="container">
@@ -83,7 +96,7 @@
               <em class="card-title inter">Lily Blossom</em>
               <h4 class="card-price inter">20 USD</h4>
             </div>
-            <button class="card-btn inter">ADD TO CART</button>
+            <button class="card-btn inter" onclick="alrt()">ADD TO CART</button>
           </div>
           <div class="plant-card">
             <img src="./assets/sample-flower-image.png" alt="Card Image" />
@@ -91,7 +104,7 @@
               <em class="card-title inter">Lily Blossom</em>
               <h4 class="card-price inter">20 USD</h4>
             </div>
-            <button class="card-btn inter">ADD TO CART</button>
+            <button class="card-btn inter" onclick="alrt()">ADD TO CART</button>
           </div>
           <div class="plant-card">
             <img src="./assets/sample-flower-image.png" alt="Card Image" />
@@ -99,7 +112,7 @@
               <em class="card-title inter">Lily Blossom</em>
               <h4 class="card-price inter">20 USD</h4>
             </div>
-            <button class="card-btn inter">ADD TO CART</button>
+            <button class="card-btn inter" onclick="alrt()">ADD TO CART</button>
           </div>
           <div class="plant-card">
             <img src="./assets/sample-flower-image.png" alt="Card Image" />
@@ -107,7 +120,7 @@
               <em class="card-title inter">Lily Blossom</em>
               <h4 class="card-price inter">20 USD</h4>
             </div>
-            <button class="card-btn inter">ADD TO CART</button>
+            <button class="card-btn inter" onclick="alrt()">ADD TO CART</button>
           </div>
           <div class="plant-card">
             <img src="./assets/sample-flower-image.png" alt="Card Image" />
@@ -115,7 +128,7 @@
               <em class="card-title inter">Lily Blossom</em>
               <h4 class="card-price inter">20 USD</h4>
             </div>
-            <button class="card-btn inter">ADD TO CART</button>
+            <button class="card-btn inter" onclick="alrt()">ADD TO CART</button>
           </div>
           <div class="plant-card">
             <img src="./assets/sample-flower-image.png" alt="Card Image" />
@@ -123,7 +136,7 @@
               <em class="card-title inter">Lily Blossom</em>
               <h4 class="card-price inter">20 USD</h4>
             </div>
-            <button class="card-btn inter">ADD TO CART</button>
+            <button class="card-btn inter" onclick="alrt()">ADD TO CART</button>
           </div>
           <div class="plant-card">
             <img src="./assets/sample-flower-image.png" alt="Card Image" />
@@ -131,7 +144,7 @@
               <em class="card-title inter">Lily Blossom</em>
               <h4 class="card-price inter">20 USD</h4>
             </div>
-            <button class="card-btn inter">ADD TO CART</button>
+            <button class="card-btn inter" onclick="alrt()">ADD TO CART</button>
           </div>
           <div class="plant-card">
             <img src="./assets/sample-flower-image.png" alt="Card Image" />
@@ -139,14 +152,14 @@
               <em class="card-title inter">Lily Blossom</em>
               <h4 class="card-price inter">20 USD</h4>
             </div>
-            <button class="card-btn inter">ADD TO CART</button>
+            <button class="card-btn inter" onclick="alrt()">ADD TO CART</button>
           </div>
         </div>
       </section>
       <!-- Flower & Plant -->
       <section class="flower container">
         <div class="flower-image">
-          <img class="flower-img-1" src="./assets/trusted-badge.png" alt="" />
+          <img class="flower-img-1 animation" src="./assets/trusted-badge.png" alt="" />
           <img
             class="flower-img-2"
             src="./assets/flower-store.png"
@@ -284,5 +297,11 @@
         <img class="icon-img" src="./assets/icon-youtube.png" alt="Youtube" />
       </div>
     </footer>
+
+    <script>
+        function alrt() {
+         alert("Flower Added to Cart");
+              }
+    </script>
   </body>
 </html>
